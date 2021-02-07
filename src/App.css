@@ -1,0 +1,17 @@
+.App{
+    display: flex;
+    height: 70vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    box-sizing: border-box;
+    border: 1px solid #333;
+}
+
+@media (max-width: 567px) {
+    .App {
+        flex-wrap: wrap;
+        height: 100vh;
+         margin-top: 0;
+         margin-bottom: 0;
+    }
+}

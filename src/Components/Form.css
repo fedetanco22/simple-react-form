@@ -1,0 +1,75 @@
+form{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+   
+}
+
+.column-one, .column-two{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.form-label{
+    padding-right: 20px;
+    padding-left: 0px;
+    width: 350px;
+    margin :10px 0;
+}
+.form-inputs, select{
+    margin:10px 0;
+}
+
+
+.label-pais{
+    margin-top: 25px;
+}
+
+input,select{
+    border: none;
+     width: 350px;
+     height: 45px;
+}
+
+
+button{
+    align-self: flex-end;
+    width:130px;
+    height: 36px;
+    border: none;
+    margin: 0 20px;
+    border-radius: 10px;
+    
+}
+button:focus{
+    outline: none;
+}
+.btn-secondary{
+    background-color: transparent;
+    border: 1px solid #007BFF ;
+    color: #007BFF;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    text-align: left;
+}
+
+@media (max-width: 427px) {
+.btn-container {
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+}
